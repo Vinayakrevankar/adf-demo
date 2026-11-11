@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-course-vina"
+		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"linkedserviceDL_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://demodatavinadf.dfs.core.windows.net/"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "demo-datavin.database.windows.net"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "demo_sql_db"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "datavin"
+		},
+		"linked_git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"linkedserviceDL_properties_typeProperties_url": {
+			"value": "https://storagedatafactoryvin.dfs.core.windows.net/"
+		},
+		"ManagerTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/47ad4a95-3d71-40fd-81e1-17fecba75bd7/resourceGroups/RG-ADFCourse/providers/Microsoft.Storage/storageAccounts/storagedatafactoryvin"
+		},
+		"ManagerTrigger2_properties_typeProperties_scope": {
+			"value": "/subscriptions/47ad4a95-3d71-40fd-81e1-17fecba75bd7/resourceGroups/RG-ADFCourse/providers/Microsoft.Storage/storageAccounts/storagedatafactoryvin"
+		}
+	}
+}
