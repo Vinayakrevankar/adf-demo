@@ -1,0 +1,21 @@
+{
+	"name": "adf-course-vina",
+	"properties": {
+		"globalParameters": {
+			"email_recepient": {
+				"type": "string",
+				"value": "vinayakanrevankar@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b72fdf6c-09e8-43ab-a18e-46d182bd108e",
+		"tenantId": "d934f2e1-4ed4-4d24-810e-5150851c31bf"
+	}
+}
